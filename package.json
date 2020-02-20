@@ -1,0 +1,19 @@
+{
+  "name": "seancloud-owa",
+  "version": "1.0.0",
+  "description": "Simple portfolio site analytics and log management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanGibbons42/seancloud-owa.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeanGibbons42/seancloud-owa/issues"
+  },
+  "homepage": "https://github.com/SeanGibbons42/seancloud-owa#readme"
+}
