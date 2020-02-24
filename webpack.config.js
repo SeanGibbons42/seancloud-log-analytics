@@ -34,6 +34,7 @@ module.exports = {
   devServer: {
     contentBase: './dist/frontend',
     open: true,
+    historyApiFallback: true,
   }
 
 }
