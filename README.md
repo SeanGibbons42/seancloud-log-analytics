@@ -1,2 +1,2 @@
-# seancloud-owa
-Traffic and Site Dashboard using S3 log data
+# seancloud-log-analytics
+Dashboard for S3 access log analytics
