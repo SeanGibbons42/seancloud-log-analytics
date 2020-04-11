@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700&display=swap');
+
+h1, h2, h3, h4{
+    font-family: Lato;
+}
+
+body{
+    margin: 0;
+}
+
+.page-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.page-body{
+    display: flex;
+}
+
+.header{
+
+}
+
+.l-sidebar{
+    flex: 0 1 auto;
+    height: 100vh;
+}
+
+.content{
+    flex: 1 1 auto;
+}
+
+@media screen and (max-width:500px){
+    .l-sidebar{
+        display: none;
+    }
+    .content{
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+}
+
+
+
+

@@ -1,0 +1,30 @@
+.header{
+    padding: 0 30px;
+    display: flex;
+    background-color:#408CE4;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.header-end{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-link{
+    width: 50px;
+
+    text-align: center;
+
+    font-size: 40px;
+    color: #fff;
+}
+
+.header-link:hover{
+    color: #ddd;
+}
+

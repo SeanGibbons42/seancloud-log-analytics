@@ -7,19 +7,34 @@ import MapPage from "../pages/MapPage";
 import StoragePage from "../pages/StoragePage";
 
 //nav components
-// import Header from "../components/navigation/Header";
-// import Nav from "../components/navigation/Nav";
+import Header from "../components/navigation/Header";
+import Nav from "../components/navigation/Nav";
+
+import "./app.css"
 
 class App extends Component {
   render(){
     return(
       <div className="App">
       <Router>
-        <h1> My App </h1>
-        <Route path="/"/>
-        <Route path="/traffic" component = {TrafficPage} />
-        <Route path="/map" component = {MapPage} />
-        <Route path="/storage" component = {StoragePage} />
+        {/* <div className="page-grid"> */}
+
+          <div>
+            <Header />
+          </div>
+          <div className="page-body">
+          <div className="l-sidebar">
+            <Nav/>
+          </div>
+
+          <div className="content">
+            <Route path="/"/>
+            <Route path="/traffic" component = {TrafficPage} />
+            <Route path="/map" component = {MapPage} />
+            <Route path="/storage" component = {StoragePage} />
+          </div>
+          </div>
+        {/* </div> */}
       </Router>
       </div>
     );

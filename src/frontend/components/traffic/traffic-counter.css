@@ -1,0 +1,107 @@
+
+.content-wrapper{
+    display: flex;
+    height: 100%;
+}
+
+.display{
+    width: 65%;
+
+    padding: 10px;
+    /* margin-right: 35px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.display-value{
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+
+    text-align: right;
+    color: #40DE7F;
+}
+
+.display-decoration{
+    color: gray;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.display-title{
+    font-size: 16px;
+    font-family: Raleway;
+
+    color: #878787;
+
+    text-align: right;
+}
+
+.date-bubble{
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    text-align: center;
+
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+    font-size: 20px;
+    font-family: Lato;
+
+    color: #848484;
+}
+
+
+.vr{
+    width: 2px;
+    background: gray;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 1280px){
+    .vr{
+        display: none;
+    }
+    .display-value{
+        font-size: 30px;
+    }
+    .date-bubble{
+        font-size: 16px;
+    }
+}
+
+.hr{
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 1280px){
+    .hr{
+        display: none;
+    }
+
+}
+
+
+
+
+
+.t-selector{
+    height: 100%;
+    width: 35%;
+    margin: auto 0;
+}
+
+.t-selector > ul{
+    list-style-type: none; 
+    margin: auto 0;
+    padding: 0;
+}
+
+
+.date-bubble:hover{
+    border: 2px solid #408CE4;
+}
